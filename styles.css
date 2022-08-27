@@ -1,0 +1,190 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:"helvetica", "Arial", sans-serif;
+    background-image:url("https://w0.peakpx.com/wallpaper/205/120/HD-wallpaper-orange-edge-black-red-door-carbon-blue-modern-fibre-ultra.jpg")  ;
+    color:white;
+    
+  }
+  
+  h4,h1{
+    color:white;
+    font-size: large;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+    background:white;
+    
+  }
+  
+  nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 1400px;
+    height: 100px;
+    z-index: 2;
+    background: black;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: white 1px solid;
+  }
+  
+  
+  
+  nav a{
+    color:white;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.75em;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  nav a:hover{
+    color: orangered;
+  }
+  
+  section{
+    box-sizing: border-box;
+    padding: 100px;
+    text-align:center;
+    width: 100%;
+    max-width: 1400px;
+    border-bottom: whitesmoke 1px solid; 
+  }
+
+  .container--projects{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .project-tile{
+    background: black;
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 3;
+    color:white;
+    
+  }
+  
+  .project-name{
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: 0.1em;
+    margin-bottom: 0.4em;
+    text-transform: none;
+    font-weight: 200;
+    font-size: 2em;  
+  }
+  
+
+  
+  .description--project{
+    text-align: left;
+  }
+  
+  img{
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .imagen-1{
+     width: 500px;
+    padding: auto;
+    margin: auto;
+    
+  }
+  
+  .img--about{
+    border-radius: 50%;
+    width: 4000px;
+    height: 4000px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    float: left;
+    border-bottom: whitesmoke 1px solid;
+  }
+  
+  @media (max-height: 600px){
+    .container--filler-image{
+      display: none;
+    } 
+  }
+  
+  @media (max-width: 800px){
+    section{
+      padding: 20px;
+    } 
+}
+  
+    .img--about{
+      height: 150px;
+      width: 150px;
+      
+    }
+  
+    #contact-section{
+    min-height: 100vh; 
+    width: 100%;
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+   
+    
+  }
+  
+  .container--profile-links{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+  }
+
+  
+  
+  .profile-links{
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    flex-grow: 2;
+    border-bottom: whitesmoke 1px solid;
+  }
+  
+  .profile-links:hover{
+    color: orangered;
+  }
+  
+  .git_img{
+    left: 50px;;
+    color:rgb(4, 4, 4);
+  }
+  
+
+  
+  
