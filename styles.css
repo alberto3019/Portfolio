@@ -117,11 +117,11 @@ body{
   }
   
   .img--about{
-    border-radius: 50%;
+    border-radius: 100%;
     width: 4000px;
     height: 4000px;
     margin-right: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     float: left;
     border-bottom: whitesmoke 1px solid;
   }
@@ -139,8 +139,8 @@ body{
 }
   
     .img--about{
-      height: 150px;
-      width: 150px;
+      height: 250px;
+      width: 250px;
       
     }
   
