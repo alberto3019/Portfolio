@@ -75,8 +75,8 @@ body{
   .project-tile{
     background: black;
     width: 400px;
-    padding: 20px;
-    margin: 10px;
+    padding: 60px;
+    margin: 30px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -104,7 +104,7 @@ body{
   }
   
   img{
-    width: 400px;
+    width: 1200px;
     padding: 20px;
     margin: 10px;
   }
@@ -118,8 +118,9 @@ body{
   
   .img--about{
     border-radius: 100%;
-    width: 4000px;
-    height: 4000px;
+    width: auto;
+    padding: auto;
+    margin: auto;
     margin-right: 200px;
     margin-bottom: 100px;
     float: left;
@@ -180,10 +181,7 @@ body{
     color: orangered;
   }
   
-  .git_img{
-    left: 50px;;
-    color:rgb(4, 4, 4);
-  }
+  
   
 
   
