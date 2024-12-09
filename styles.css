@@ -1,189 +1,190 @@
 body{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family:"helvetica", "Arial", sans-serif;
-    background-image:url("https://w0.peakpx.com/wallpaper/205/120/HD-wallpaper-orange-edge-black-red-door-carbon-blue-modern-fibre-ultra.jpg")  ;
-    color:white;
-    
-    
-  }
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family:"helvetica", "Arial", sans-serif;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20231108/pngtree-paper-background-showcasing-a-stunning-watercolor-texture-in-dark-green-gradient-image_13802068.png");
+    background-size: cover; /* Asegura que la imagen cubra todo el área */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen */
+    margin: 0; /* Quita los márgenes por defecto */  ;
   
-  h4,h1{
-    color:white;
-    font-size: large;
-  }
+  color:black;
   
-  html{
-    scroll-behavior: smooth;
-    background:white;
-    
-  }
-  
-  nav{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    max-width: 1400px;
-    height: 100px;
-    z-index: 2;
-    background: black;
-    text-align: center;
-    padding: 20px;
-    box-sizing: border-box;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: white 1px solid;
-  }
-  
-  
-  
-  nav a{
-    color:white;
-    text-transform: uppercase;
-    font-weight: 100;
-    font-size: 1.75em;
-    text-decoration: none;
-    padding: 5px;
-    margin: 5px;
-  }
-  
-  nav a:hover{
-    color: orangered;
-  }
-  
-  section{
-    box-sizing: border-box;
-    padding: 100px;
-    text-align:center;
-    width: 100%;
-    max-width: 1400px;
-    border-bottom: whitesmoke 1px solid; 
-  }
-
-  .container--projects{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-  }
-
-  .project-tile{
-    background: black;
-    width: 400px;
-    padding: 60px;
-    margin: 30px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    flex-grow: 3;
-    color:white;
-    
-  }
-  
-  .project-name{
-    text-transform: uppercase;
-    font-weight: 100;
-    margin-top: 0.1em;
-    margin-bottom: 0.4em;
-    text-transform: none;
-    font-weight: 200;
-    font-size: 2em;  
-  }
-  
-
-  
-  .description--project{
-    text-align: left;
-  }
-  
-  img{
-    width: 1200px;
-    padding: 20px;
-    margin: 10px;
-  }
-  
-  .imagen-1{
-     width: 500px;
-    padding: auto;
-    margin: auto;
-    
-  }
-  
-  .img--about{
-    border-radius: 100%;
-    width: auto;
-    padding: auto;
-    margin: auto;
-    margin-right: 200px;
-    margin-bottom: 100px;
-    float: left;
-    border-bottom: whitesmoke 1px solid;
-  }
-  
-  @media (max-height: 600px){
-    .container--filler-image{
-      display: none;
-    } 
-  }
-  
-  @media (max-width: 800px){
-    section{
-      padding: 20px;
-    } 
 }
+
+h4,h1{
+  color:white;
+}
+
+html{
+  scroll-behavior: smooth;
+  background:white;
   
-    .img--about{
-      height: 250px;
-      width: 250px;
-      
-    }
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 1400px;
+  height: 100px;
+  z-index: 2;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: white 1px solid;
+}
+
+
+
+nav a{
+  color:white;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 1.75em;
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px;
+}
+
+nav a:hover{
+  color: #ec4b59;
+}
+
+section{
+  box-sizing: border-box;
+  padding: 100px;
+  text-align:center;
+  width: 100%;
+  max-width: 1400px;
+  border-bottom: black 1px solid; 
+  text-background:white;
   
-    #contact-section{
-    min-height: 100vh; 
-    width: 100%;
-    overflow: hidden;
-    padding-left: 0;
-    padding-right: 0;
-   
-    
-  }
+}
+.container--projects{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.project-tile{
+  background: black;
+  width: 400px;
+  padding: 20px;
+  margin: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex-grow: 3;
+  color:white;
   
-  .container--profile-links{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    margin-bottom: 20px;
+}
+
+.project-name{
+  text-transform: uppercase;
+  font-weight: 100;
+  margin-top: 0.1em;
+  margin-bottom: 0.4em;
+  text-transform: none;
+  font-weight: 200;
+  font-size: 2em;  
+}
+
+
+
+.description--project{
+  text-align: left;
+}
+
+img{
+  width: 400px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.imagen-1{
+   width: 500px;
+  padding: auto;
+  margin: auto;
+  
+}
+
+.img--about{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  float: left;
+  border-bottom: black 1px solid;
+}
+
+@media (max-height: 600px){
+  .container--filler-image{
+    display: none;
+  } 
+}
+
+@media (max-width: 800px){
+  section{
+    padding: 20px;
+  } 
+
+  .img--about{
+    height: 150px;
+    width: 150px;
     
   }
 
+  #contact-section{
+  min-height: 100vh; 
+  width: 100%;
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
+  color:white;
+ 
   
-  
-  .profile-links{
-    font-size: 2em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    margin: 5px;
-    flex-grow: 2;
-    border-bottom: whitesmoke 1px solid;
-  }
-  
-  .profile-links:hover{
-    color: orangered;
-  }
-  
-  
-  
+}
 
+.container--profile-links{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
   
+}
+
+.profile-links{
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+  flex-grow: 2;
+  border-bottom: white 1px solid;
+}
+
+.profile-links:hover{
+  color: #ec4b59;
+}
+
+.filler--contact{
+  background: url(https://images.unsplash.com/photo-1517028267-bcc3eba7474c?ixlib=rb-0.3.5&s=4400aadc6f58c5bc31e455db03321cea&auto=format&fit=crop&w=1504&q=80);
+  background-position: 40% 50%;
+  color:white;
   
+}
